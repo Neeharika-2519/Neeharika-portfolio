@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container" id="navbar-div">
+            <div>
+                <h1 class="logo">Neeharika</h1>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                &#9776;
+            </button>
+            <div id="links">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Vijaya Neeharika</span></h1>
+            <p>A <strong>Full-Stack Developer</strong> with a passion for designing clean, user-friendly interfaces.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am currently pursuing a Master's in Computer Science, specializing in Full-Stack Development. I have a strong foundation in both front-end and back-end technologies, and I enjoy building responsive, user-friendly web applications.</p>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="container">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <h3>Master's in Computer Science</h3>
+                        <div class="edu">
+                            <div>
+                                <p>George Mason University — <i>May 2024</i></p>
+                                <p>Specialization: Full-Stack Development</p>
+                            </div>
+                            <div>
+                                <img src="university-pic.png" alt="uni" style="height: 100px; width:100px;" class="rounded-image"/>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Bachelor's in Computer Science</h3>
+                        <div class="edu">
+                            <div>
+                                <p>Neil Gogte Institute of Technology —  June 2022</p>
+                                <p>Specialization: Software Engineering</p>
+                            </div>
+                            <div>
+                                <img src="btech university-pic.png" alt="btech" style="height: 100px; width:100px;" class="rounded-image"/>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <ul>
+                    <li>
+                        <h3>Software Engineering Intern</h3>
+                        <div class="exp">
+                            <p><b>Pilomation</b> <i>June 2024 - October 2024</i></p>
+                            <img src="pilomation.jpeg" alt="pilo" style="height: 50px; width:50px;" class="rounded-image"/>
+                        </div>
+                        <ul>
+                            <li>Worked on developing and maintaining web applications using React, Node.js, and MongoDB.</li>
+                            <li>Collaborated with cross-functional teams to design and implement new features.</li>
+                            <li>Optimized front-end performance to enhance user experience and reduce loading times.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Web Developer Intern</h3>
+                        <div class="exp">
+                            <p><b>Teleparadigm Network Ltd</b>  <i>December 2021 - May 2022</i></p>
+                            <img src="tele.jpeg" alt="tele" style="height: 50px; width:60px;" class="rounded-image"/>
+                        </div>
+                        <ul>
+                            <li>Developed backend APIs using Java and Spring Boot for internal tools.</li>
+                            <li>Implemented database models and queries using PostgreSQL.</li>
+                            <li>Contributed to improving the testing framework and wrote unit and integration tests.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Task Management Platform</h3>
+                        <p>A robust platform for managing tasks efficiently, built with Spring Boot and Java.</p><br>
+                        <p>Architected a robust task management platform, delivering seamless user authentication and an intuitive interface for task
+                            browsing, creation, and tracking using Spring Boot.
+                            </p><br>
+                        <p>Integrated advanced reminder features and an administrative dashboard, significantly improving end-user task management
+                                efficiency</p><br>
+                        <p>Optimized performance and scalability, supporting thousands of concurrent users with minimal latency.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Blog App</h3>
+                        <p>A responsive blogging platform with Firebase authentication and MongoDB integration.</p><br>
+                        <p>Enhanced pages, such as the admin dashboard, enable admins to manage posts, comments, and users with full CRUD operations
+                            using MongoDB and Redux with advanced search techniques</p><br>
+                        <p>Designed a fully responsive website with a sleek dark mode to enhance user experience, cater to different preferences, and allow
+                            users to search by title and sort through a modern sidebar, utilizing cutting-edge search query techniques with MongoDB.
+                            </p><br>
+                        <p> Implemented Firebase authentication to secure user logins and ensure role-based access control, enhancing the platform’s
+                            security and user management</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Hospital Management System</h3>
+                        <p>A comprehensive system for managing hospital workflows using React and MongoDB.</p><br>
+                        <p>Developed a comprehensive platform for managing patient records, appointments, and billing with real-time updates</p><br>
+                        <p>Built a responsive admin dashboard with full CRUD operations for patient and staff data using MongoDB.
+                        </p><br>
+                        <p>Designed an intuitive React interface, enhancing user experience and optimizing workflows across departments</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>If you’d like to work together or have any questions, feel free to reach out:</p>
+                <ul>
+                    <li>Email: <a href="mailto:neeharika.vijaya@gmail.com">neeharika.vijaya@gmail.com</a></li>
+                    <li>GitHub: <a href="https://Neeharika-2519.github.io/" target="_blank">My GitHub</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vijaya Neeharika Rangisetty. Built with ♥</p>
+    </footer>
+    <script>
+        // JavaScript to toggle navbar on mobile
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            const navLinks = document.querySelector('#links');
+            navLinks.classList.toggle('active'); // Toggle the active class
+        });
+
+    </script>
+</body>
+</html>
